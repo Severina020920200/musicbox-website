@@ -1,0 +1,177 @@
+
+@media (max-width: 576px) {
+    .navbar-brand img {
+        max-height: 40px; 
+    }
+
+    .navbar-toggler {
+        margin-left: auto; 
+    }
+    h2 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+
+
+.navbar-custom {
+    background-color: #000000; 
+    border-bottom: 2px solid #880000; 
+}
+
+
+
+
+.navbar {
+    background-color: #000000;
+}
+.navbar-brand, .nav-link {
+    color: white;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+
+.carousel-item {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+.carousel-caption h5 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.carousel-caption p {
+    font-size: 1.2rem;
+}
+.carousel-caption {
+    bottom: 20%;
+}
+
+
+.text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button{
+    background-color: #880000; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+
+}
+
+.button:focus{
+   border-color: bisque;
+}
+
+.button:hover {
+    border-color: bisque;
+    background-color: #aa0000;
+}
+
+.button:active {
+    border-color: bisque;
+    background-color: white; 
+    color: #880000; 
+}
+
+.hover-effect {
+    position: relative;
+    overflow: hidden;
+}
+.img-container {
+    position: relative;
+}
+
+.img-container img {
+    width: 100%;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.hover-effect:hover img {
+    transform: scale(1.1);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+}
+
+.overlay .text {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.hover-effect:hover .overlay {
+    opacity: 1;
+}
+
+#videos {
+    position: relative;
+    background-color: #000; 
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.video-container:hover iframe {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center }
+
+.modal-content {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+.coupon-box {
+        padding: 20px;
+        border: 2px dashed #880000;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+        display: inline-block;
+    }
+.coupon-code {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #880000;
+    }
+
